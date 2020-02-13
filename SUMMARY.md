@@ -2,9 +2,7 @@
 
 * [简介](README.md)
 * [故事是这样的](01_The_Story.md)
-    * [](01_The_Story.md#理想)
 * [有哪些不一样](02_The_Differences.md)
-    * 
 * [共识](03_design_alliance.md)
     * [F1 痛点目标共识]()
         * [敏捷就是压迫大家的方式吗？]()

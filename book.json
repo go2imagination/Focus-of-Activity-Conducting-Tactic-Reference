@@ -8,7 +8,8 @@
          "-search", 
          "search-pro",
          "hide-element",
-         "splitter"
+         "splitter",
+         "chapter-fold"
     ],
     "pluginsConfig": {
         "hide-element": {
