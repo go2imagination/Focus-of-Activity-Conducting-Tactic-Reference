@@ -21,8 +21,8 @@
             "elements": [".gitbook-link"]
         },
         "sharing": {
-             "douban": true,
-             "weibo": true,
+             "douban": false,
+             "weibo": false,
              "google": true,
              "qq": false,
              "qzone": false,
