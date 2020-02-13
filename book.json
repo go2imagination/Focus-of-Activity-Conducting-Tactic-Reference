@@ -22,10 +22,10 @@
         },
         "sharing": {
              "douban": true,
-             "google": true,
-             "qq": true,
              "weibo": true,
-             "qzone": true,
+             "google": true,
+             "qq": false,
+             "qzone": false,
              "pocket": false,
              "facebook": false,
              "twitter": false,
