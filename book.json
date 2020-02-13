@@ -4,6 +4,15 @@
     "author" : "王宇",
     "language" : "zh-hans",
     "plugins": [
-         "-lunr", "-search", "search-pro"
-    ]
+         "-lunr", 
+         "-search", 
+         "search-pro",
+         "hide-element",
+         "splitter"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        }
+    }
 }
