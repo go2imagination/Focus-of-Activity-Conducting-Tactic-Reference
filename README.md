@@ -9,3 +9,5 @@
 
 
 
+{% creativecommons type="by-sa" %}
+{% endcreativecommons %}
