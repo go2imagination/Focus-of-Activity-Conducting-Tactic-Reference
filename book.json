@@ -1,0 +1,9 @@
+{
+    "title": "战术手册参考",
+    "description" : "敏捷教练战术手册参考",
+    "author" : "王宇",
+    "language" : "zh-hans",
+    "plugins": [
+         "-lunr", "-search", "search-pro"
+    ]
+}
