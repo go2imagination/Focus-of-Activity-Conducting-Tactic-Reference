@@ -8,6 +8,9 @@
 
 
 
+敏捷教练战术指导手册
+
+新时代软件管理者的必备资料
 
 {% creativecommons type="by-sa" %}
 {% endcreativecommons %}
