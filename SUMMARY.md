@@ -13,7 +13,7 @@
         * [自组织的理想与现实]()
 * [共创](co_create.md)
     * [F4 工作项校准]()
-        * [如何快速的澄清需求]
+        * [如何快速地澄清需求](requirement_calibration.md)
         * [要不要估算，如何估算]()
         * [如何拆分需求实现渐进式交付过程](split_requirement.md)
     * [F5 协作校准](F5.md)
