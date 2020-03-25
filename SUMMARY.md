@@ -13,20 +13,21 @@
         * [自组织的理想与现实]()
 * [共创](co_create.md)
     * [F4 工作项校准]()
-        * [如何快速地澄清需求](requirement_calibration.md)
-        * [要不要估算，如何估算]()
-        * [如何拆分需求实现渐进式交付过程](split_requirement.md)
+        * [如何快速地澄清需求](requirement_calibration/requirement_calibration.md)
+        * [要不要估算，如何估算](estimation/estimation.md)
+        * [如何拆分需求实现渐进式交付过程](split_requirement/split_requirement.md)
     * [F5 协作校准](F5.md)
-        * [选择敏捷电子协作工具的六项要求](collaboration_tools_selection.md)
+        * [选择敏捷电子协作工具的六项要求](collaboration_tools_selection/collaboration_tools_selection.md)
     * [F6 成果校准]()
         * [迭代与上线什么关系]()
-        * [如何通过度量更好的管理技术组织](measurement.md)
+        * [如何通过度量更好的管理技术组织](measurement/measurement.md)
     * [F7 学习与调整](F7.md)
         * [如何面对那些食之无味的回顾会议]()
 * [共赢]()
     * [F8 外部的共鸣]()
     * [F9 内部的传承]()
         * [人员培养]
+        * 如何使用外部顾问
 
 
 

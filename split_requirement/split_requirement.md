@@ -4,7 +4,7 @@
 
 > “天下大事，必作于细。” ——老子
 
-<img src="pictures/split_requirement_begin.png" alt="轻装上阵" style="zoom:30%;"/>
+<img src="split_requirement_begin.png" alt="轻装上阵" style="zoom:30%;"/>
 
 ## 拆分是一个永恒的话题
 
@@ -46,19 +46,19 @@
 
 风险来自于：一方面我们以为我们以为的就是我们以为（具备上下文的领域知识，或假设已经具备），另一方面我们过低的预测可能需要面对的风险（对风险的估计不足）。所以我的师父才会强制开发团队拆分成为3天左右规模的需求。这种拆分粒度对于软件项目来说非常重要，但如果拆分更细致的话，比如以小时为单位进行拆分，对于跟踪与记录来说就会存在粒度太细碎的问题。
 
-太小（细碎）的粒度会带来管理成本的提高。因为每一项事情你都需要进行关注，进行管理。太细的粒度会导致管理成本提高。但如果粒度太大或太粗又会造成机会成本的提高。也就是你可能会因为粒度太大反馈速度太慢而造成一些更大的损失。我们需要再机会成本和管理成本之间进行平衡，这样粒度才是合适的。（如下图所示）
+太小（细碎）的粒度会带来管理成本的提高。因为每一项事情你都需要进行关注，进行管理。太细的粒度会导致管理成本提高。但如果粒度太大或太粗又会造成机会成本的提高。也就是你可能会因为粒度太大反馈速度太慢而造成一些更大的损失。我们需要在机会成本和管理成本之间进行平衡，这样粒度才是合适的。（如下图所示）
 
-<img src="pictures/split_requirement_size_cost.png" alt="粒度与成本" style="zoom:50%;"/>
+<img src="split_requirement_size_cost.png" alt="粒度与成本" style="zoom:50%;"/>
 
 对于拆的太过细碎的需求，你完全可以打包形成一个单独的需求。这样其实拆小，拆细才是对需求管理的更高要求。
 
 ### 什么是合适的粒度
 
-对于一般的具体软件开发项目来说，每一个任务**3天左右**的粒度是一个拍脑袋的经验数据。所以，任何开发工作都要从这个3天左右的粒度的任务进行汇总形成更高阶的任务合集。如果说你不能控制粒度到3天左右的话，也强烈建议最大工作量的任务在5天内完成。对于这个粒度的需求，就可以汇总形成便于管理与决策的内容，如下图所示。
+对于一般的具体软件开发项目来说，每一个需求**3天左右**的粒度是一个拍脑袋的经验数据。所以，任何开发工作都要从这个3天左右的粒度的需求进行汇总形成更高阶的需求合集。如果说你不能控制粒度到3天左右的话，也强烈建议最大工作量的需求在5天内完成。对于这个粒度的需求，就可以汇总形成便于管理与决策的内容，如下图所示。
 
-<img src="pictures/split_requirement_summary.png" alt="细节粒度对于整体的重要性" style="zoom:50%;"/>
+<img src="split_requirement_summary.png" alt="细节粒度对于整体的重要性" style="zoom:50%;"/>
 
-我需要再明确一下，一切的决策建议都基于这个最细粒度的需求来进行整体讨论，而不是反向而行之。因为恰恰是这里粒度的工作任务才会平衡技术与业务的关键粒度，小了大家觉得太细碎了没必要讨论。大于这个粒度，技术的风险和业务的风险不一定能暴露。
+我需要再明确一下，一切的决策建议都基于这个最细粒度的需求来进行整体讨论，而不是反向而行之。因为恰恰是这个粒度的需求才会平衡技术与业务的关键粒度，小了大家觉得太细碎了没必要讨论。大于这个粒度，技术的风险和业务的风险不一定能暴露。
 
 这其实牵扯到一个非常重要的概念，就是估算。对于估算的更多内容，我们会有单独的文章详细介绍。这里就主要讨论粒度和切分手段。
 
@@ -70,9 +70,9 @@
 
 我在带领团队进行敏捷转型的过程中，很多时候都是略显逼迫技术人员按照业务角度进行切分的。那这种让业务人员参与的一个好处就是，业务人员可以做出一些调整优先级的决策。如果完全是按照技术角度进行切分的话，你只能按照这个切分的思路进行开发过程。往往到后期，业务人员其实是被技术人员绑架了（因为只能这样的交付过程）。这也是业务与技术关系很多时候不太融洽的一个原因（业务的参与感太少了）。
 
-对于敏捷需求的切分，期望的是每一个需求都是制作陶器时手部的一次变化，随着转盘的转动陶器的形状实现了逐渐的变化。手的每一次位置的调整，陶器的形状修发生一次变化，而且这种变化是基于上一次变化。对于软件来说是相似的，软件的每一次需求，都对软件进行了一次调整与改变。每一个需求都是基于上一个需求的一次增量。
+对于敏捷需求的切分，期望的是每一个需求都是制作陶器时手部的一次变化，随着转盘的转动陶器的形状实现了逐渐的变化。手的每一次位置的调整，陶器的形状就发生一次变化，而且这种变化是基于上一次变化。对于软件来说是相似的，软件的每一次需求，都对软件进行了一次调整与改变。每一个需求都是基于上一个需求的一次增量。
 
-<img src="pictures/split_requirement_jug-pottery-YUCTWLX.jpg" alt="陶器制作" style="zoom:50%;"/>
+<img src="split_requirement_jug-pottery-YUCTWLX.jpg" alt="陶器制作" style="zoom:50%;"/>
 
 这种增量是一种可以被终端用户感知的增量过程，也就是说每一次的需求实现完成，系统就能看到一些变化，如同这个陶器一样。这就是敏捷对需求切分的要求：
 
@@ -88,7 +88,7 @@
 
 ## 拆分流程
 
-<img src="pictures/split_requirement_process.png" alt="拆分流程" style="zoom:50%;"/>
+<img src="split_requirement_process.png" alt="拆分流程" style="zoom:50%;"/>
 
 任何的拆分都要从业务人员（或熟悉业务的人员）开始进行拆分。如果可以拆分就按照业务人员的理解进行拆分，从，当拆分完毕之后，需要询问技术人员拆分之后的粒度是否合适（这里的合适是指3天左右工作量）。
 
@@ -116,9 +116,9 @@
 
 ### 时间线分析
 
-假设这个功能实现完毕的话，你将如何去验证这个需求呢？有哪些事件会被你触发？比如登录、输入什么信息之后、点击查询按钮、根据查询到的内容进行几种操作。这种事件点就可以成为切分的思路。再次友情提示一下，如果切得太小了可以打包。
+假设这个功能实现完毕的话，你将如何去验证这个需求呢？有哪些事件会被你触发？比如登录、输入什么信息之后、点击查询按钮、根据查询到的内容进行几种操作。这种时间点就可以成为切分的思路。再次友情提示一下，如果切得太小了可以打包。
 
-<img src="pictures/split_requirement_business.png" alt="how to split a user story" style="zoom:75%;"/>
+<img src="split_requirement_business.png" alt="how to split a user story" style="zoom:75%;"/>
 
 ## 技术拆分锦囊
 
@@ -173,7 +173,7 @@
 2. 必须明确这个技术探索任务要解决哪个具体的问题。要求非常明确的定义问题域与结束标准。
    * 例如：明确历史遗留代码中数据库表格调用数量，以及写操作的代码位置。
 
-<img src="pictures/split_requirement_tech_four_method.png" alt="how to split a user story" style="zoom:75%;"/>
+<img src="split_requirement_tech_four_method.png" alt="how to split a user story" style="zoom:75%;"/>
 
 
 ## 总结
@@ -194,14 +194,20 @@
 ## 参考
 
 **附件1：Agileforall 用户故事拆分参考**
-<img src="pictures/split_requirement_how-to-split-a-user-story.png" alt="how to split a user story" style="zoom:75%;"/>
+<img src="split_requirement_how-to-split-a-user-story.png" alt="how to split a user story" style="zoom:75%;"/>
 https://agileforall.com/resources/how-to-split-a-user-story/
 
 **附件2：2015版 用户故事拆分参考 中文增加版**
-<img src="pictures/split_requirement_chinese_map.png" alt="拆分用户故事" style="zoom:50%;"/>
+<img src="split_requirement_chinese_map.png" alt="拆分用户故事" style="zoom:50%;"/>
 
 这是我在2015年基于Agileforall结构的内容增加版本，这里只作为参考内容，不推荐。
 
 **附件3：AgileLearningLabs的拆分建议**
-<img src="pictures/split_requirement_business_all.png" alt="how to split a user story" style="zoom:50%;"/>
+<img src="split_requirement_business_all.png" alt="how to split a user story" style="zoom:50%;"/>
 https://www.agilelearninglabs.com/2013/04/introduction-user-stories/
+
+## 朋友评论
+
+白雪冰：
+
+* 所有需求都是一种价值假设，需要根据反馈来验证这个假设是不是真的有价值。我认为这个是需求拆分的背景，拆分是为了快速获得反馈，scrum只是快速的一种方式，看板没有固定时间盒，但也是快速流动、快速交付。工作任务拆分容易误导大家，好像需求本身已经定好了，只是分成几次实现，这种做法也有一定的价值，比如减少leadtime，快速交付价值，但减弱了快速获得反馈的意图。需求拆分传递的信息是，需求并不是固定的，要根据每次交付后的反馈去调整，快速交付的最终目的是获取反馈，验证需求的假设是不是有价值的。
